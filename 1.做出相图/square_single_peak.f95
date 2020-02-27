@@ -31,8 +31,7 @@
           ENDDO
       ENDDO
       !======================
-      !Write the correlation
-      !C_HB(t)
+      !Write the output
       !======================
       open(10,file=trim(filename))
           DO j = 1, steps-1
