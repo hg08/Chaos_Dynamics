@@ -18,6 +18,7 @@ set size 1.15, 1.5
 set border 1+2+4+8
 set xlabel "{/Symbol m" font "Sans, 36"
 set ylabel "x" font "Sans,36"
+set title "x_{n+1} = {/Symbol m}(x_n+1) (x<0); x_{n+1}=-{/Symbol m}(x_n-1) (x>0)"
 #plot "traj_x.dat" u 2:3 w p pt 7 ps 0.4 title "x_{n+1} = {/Symbol l}(x_n+1)"
 plot "traj_x.dat" u 2:3 w p pt 7 ps 0.4 notitle 
 
